@@ -25,4 +25,5 @@ Put these weights under the root path (e.g., app/yolov5s).
 
 # Links
 1. https://github.com/ultralytics/yolov5
+   - Try to read https://github.com/ultralytics/yolov5/blob/master/detect.py
 2. https://developer.nvidia.com/embedded/jetson-tx2
