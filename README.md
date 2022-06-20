@@ -10,6 +10,14 @@ You can run #1 and #2 on the same machine. #3 should be running on Tx2.
 
 Turn on the fan before you run #3 on Tx2.
 
+# Resource allocation
+The funtion "update_allocation" in "urb-OFDMA.py" gives the rules of GPU resouce allocation.
+
+"initial_cfg" stores all application configurations (pre-configured) for devices.
+
+For example, you can change ""fps" to conduct task partition as the total number of tasks is "total_fps". That is, "fps" indicates the number of tasks that are going to be executed by the server and the rest ("total_fps" - "fps") are scheduled as device computation.
+
+
 # Data
 Download dataset: http://images.cocodataset.org/zips/val2017.zip',  # 1G, 5k images
 
