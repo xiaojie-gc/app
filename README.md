@@ -3,6 +3,7 @@
 1. URB: urb-OFDMA.py
 2. Edge server controller: server-OFDMA.py
 3. Client: 2022_exp_main.py
+
 You can run #1 and #2 on the same machine. #3 should be running on Tx2.
 
 Turn on the fan before you run #3 on Tx2.
